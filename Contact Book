@@ -1,4 +1,4 @@
-class PriyanshuContacts:
+class SurajContacts:
     def _init_(self):
         self.contacts = {}
 
@@ -84,7 +84,7 @@ class PriyanshuContacts:
             print("Contact not found.")
 
 def main():
-    contact_manager = PriyanshuContacts()
+    contact_manager = SurajContacts()
     
     while True:
         print("\nContact Management System")
